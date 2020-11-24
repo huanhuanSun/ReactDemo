@@ -1,0 +1,47 @@
+.wrap{
+    width: 600px;
+    margin:  0 auto;
+}
+.nav{
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.nav a{
+    flex: 1;
+    text-decoration: none;
+    font:  14px/40px "宋体";
+    color: blue;
+    text-align: center;
+}
+.nav a.selected{
+    color: red;;
+    border-color: red;
+}
+.list-nav{
+    display: flex;
+}
+.list-nav a {
+    flex: 1;
+    font:14px/30px "宋体";
+    text-decoration: none;
+    text-align: center;
+    background-color: #aaa;
+}
+.list-nav a.active{
+    background: #333;
+    color: #fff;
+}
+.pagenation  a,
+.pagenation  span
+{
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #333;
+    border:1px solid #ddd;
+    text-decoration: none;
+    
+}
+.pagenation .active{
+    color: #fff;
+    background-color: #333;
+}
