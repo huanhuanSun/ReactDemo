@@ -25,15 +25,10 @@ export default function Header(){
         activeClassName="selected"
         activeStyle={active}
     >加入</NavLink>
-    {/* <NavLink
+    <NavLink
         to="/list"
         activeClassName="selected"
         activeStyle={active}
-    >列表</NavLink> */}
-    <NavLink 
-        to="/list"
-        activeClassName="selected"
-        activeStyle={active}
-      >列表</NavLink>
+    >列表</NavLink>
 </div>
 }
